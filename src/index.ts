@@ -7,7 +7,6 @@ import { PrismaClient } from '@prisma/client'
 
 const main = async () =>
 {
-    const prisma = new PrismaClient()
     const app = express()
     app.use(cors())
     app.use(express.json())
