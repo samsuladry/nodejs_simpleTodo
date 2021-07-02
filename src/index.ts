@@ -2,7 +2,6 @@ import express, { Request, Response} from 'express'
 import { graphqlHTTP } from 'express-graphql'
 import { schema } from './Schema'
 import cors from 'cors'
-import { PrismaClient } from '@prisma/client'
 
 
 const main = async () =>
